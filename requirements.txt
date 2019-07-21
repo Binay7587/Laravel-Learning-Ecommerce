@@ -1,0 +1,28 @@
+1. Frontend
+    a. Homepage
+    b. Category Page
+    c. Product Detail
+    d. Pages. about, contact, privacy-policy, help and faq, terms and conditions, delivery policy, return policy
+    e. Cart Page
+    f. Checkout Page
+    g. Vendor Dashboard Page
+        i. Product entry
+        ii. Order history
+        iii. Profile
+
+    h. Customer Dashboard Page
+        i. Purchase History
+        ii. Current Order
+        iii. Profile
+
+2. Backend
+    i. Settings
+    ii. Category
+    iii. User
+    iv. Adversitement
+    v. Product
+    vi. Pages
+    vii. Order management
+    viii. Reviews
+    ix. Offer / Promotions / Cupons
+    x. Media Manager
