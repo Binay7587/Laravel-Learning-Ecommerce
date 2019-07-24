@@ -28,4 +28,9 @@ Route::group(['prefix'=>'customer','middleware'=>['auth','customer']], function(
     Route::get('/', 'HomeController@customer')->name('customer');
 });
 
+
+Route::get('/test',function(){
+    return view('test');
+});
+
 Route::get('/home', 'HomeController@index')->name('home');
