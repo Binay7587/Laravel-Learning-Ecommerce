@@ -27,7 +27,7 @@ class HomeController extends Controller
     }
 
     public function admin(){
-        return view('home');
+        return view('admin.pages.dashboard');
     }
     public function vendor(){
         return view('home');

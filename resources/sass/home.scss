@@ -1,0 +1,83 @@
+@import "../homeTemplate/vendor/bootstrap/css/bootstrap.css";
+@import "../homeTemplate/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+@import "../homeTemplate/fonts/iconic/css/material-design-iconic-font.min.css";
+@import "../homeTemplate/fonts/linearicons-v1.0.0/icon-font.min.css";
+@import "../homeTemplate/vendor/animate/animate.css";
+@import "../homeTemplate/vendor/css-hamburgers/hamburgers.min.css";
+@import "../homeTemplate/vendor/animsition/css/animsition.min.css";
+@import "../homeTemplate/vendor/slick/slick.css";
+@import "../homeTemplate/vendor/perfect-scrollbar/perfect-scrollbar.css";
+@import "../homeTemplate/css/util.css";
+@import "../homeTemplate/css/main.css";
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-menu li,
+.dropdown li {
+    position: relative;
+}
+
+.main-menu li:hover .dropdown,
+.dropdown li:hover .dropdown-subcontent {
+
+    display: block;
+}
+
+.dropdown,
+.dropdown-subcontent {
+    min-width: 160px;
+
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown li a:hover,
+.dropdown-subcontent li a:hover {
+    background-color: #f1f1f1
+
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.dropdown-subcontent {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #dddddd;
+}

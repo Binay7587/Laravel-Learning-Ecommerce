@@ -1,0 +1,10 @@
+global.$ = global.jQuery = require('jquery');
+require('../js/bootstrap');
+require('../homeTemplate/vendor/animsition/js/animsition');
+require('../homeTemplate/vendor/slick/slick');
+require('../homeTemplate/js/slick-custom.js');
+require('../homeTemplate/vendor/parallax100/parallax100.js');
+require('../homeTemplate/vendor/isotope/isotope.pkgd.min.js');
+require('../homeTemplate/vendor/sweetalert/sweetalert.min.js');
+require('../homeTemplate/vendor/perfect-scrollbar/perfect-scrollbar.min.js');
+require('../homeTemplate/js/main');

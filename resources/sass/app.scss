@@ -5,8 +5,28 @@
 @import '../assets/vendors/font-awesome/css/font-awesome.css';
 @import '../assets/vendors/themify-icons/css/themify-icons.css';
 @import '../assets/css/main.css';
+@import '../assets/vendors/summernote/summernote-bs4.css';
 
 
 .test{
     color: #ccc;
+}
+
+.lfm-image{
+    float:left;
+    position: relative;
+    margin-bottom: 20px;
+}
+.lfm-img-close-btn {
+    color: #ff0000 !important;
+    position: absolute;
+    top: -9px;
+    right: 3px;
+    z-index: 100;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: #ffffff;
+    width: 20px;
+    text-align: center;
+    text-shadow: -1px 0px #ff0000;
 }
